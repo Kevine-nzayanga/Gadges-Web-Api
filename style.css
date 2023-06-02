@@ -151,6 +151,9 @@ text-align: center;
     margin: 0 60px;
     display: flex;
 }
+.two img{
+    width:80% ;
+}
 /* blue */
 .blue{
     margin: 0 60px;
@@ -181,7 +184,7 @@ text-align: center;
   }
   .test{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .title {
     text-align: center;
