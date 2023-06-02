@@ -125,6 +125,7 @@ width: 350px;
 /* testimo */
 .testimo{
   margin: 0;
+  display: grid;
 }
 
 .title{
@@ -137,6 +138,8 @@ width: 350px;
 .zeeman img{
   width: 300px;
 }
+
+
 /* subscribe */
 .subscribe{
   margin: 0;
