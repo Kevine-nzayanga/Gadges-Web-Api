@@ -125,11 +125,17 @@ width: 350px;
 /* testimo */
 .testimo{
   margin: 0;
+}
+.test{
   display: grid;
 }
 
-.title{
+.title h1{
+  text-align: start;
   margin: 0;
+}
+.title p{
+  width: 300px;
 }
 .words p{
   margin-top: 0;
