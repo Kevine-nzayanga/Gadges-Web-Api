@@ -1,0 +1,157 @@
+@media only screen and (max-width: 746px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    ul {
+      gap: 20px;
+    }
+    
+
+
+.main{
+    background-color: black;
+      /* height: 150px;   */
+}
+
+.rightside >button{
+  /* display: none; */
+}
+  nav{
+       height: 150px; 
+}
+ul{
+   display: flex; 
+   /* flex-wrap: wrap; */
+   gap: 20px;
+   text-decoration: none;
+   list-style-type: none;
+   overflow: hidden;
+}
+.leftside{
+     display: flex; 
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.rightside{
+  margin-top: -20px;
+    width: 200px;
+}
+.rightside img{
+    height: 30px;
+}
+.rightside >button{
+    width: 100px;
+    background-color: yellow;
+    height: 30px;
+}
+
+
+
+
+
+
+/* third */
+.third{
+    /* display: flex; */
+    background-size: 20px;
+}
+.merge{
+  background-size: contain;
+/* background-size: 140%; */
+background-position: bottom;
+}
+
+.merge >h1{
+  color: rgb(23, 22, 22);
+  font-size: 20px;
+}
+.merge >p{
+  font-size: 12px;
+  color: rgb(37, 36, 36);
+}
+
+
+  /* products */
+  #products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.items{
+    border: solid 1px black;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    text-align: center;
+     /* width: 20%;  */
+    height: 200px;
+    background-color: #eaebec;
+}
+.items img{
+       width: 100%;   
+     height: 20%;   
+}
+
+
+/* two */
+.two{
+  margin: 0;
+  display: grid;
+}
+.two img{
+width: 350px;
+
+}
+
+/* blue */
+.blue{
+  width: 350px;
+  margin: 0;
+  display: grid;
+}
+.next >h3{
+  font-size: 14px;
+}
+.bot{
+  width: 40%;
+  height: 100%;
+  float: right;
+}
+
+/* testimo */
+.testimo{
+  margin: 0;
+}
+
+.title{
+  margin: 0;
+}
+.words p{
+  margin-top: 0;
+  font-size: medium;
+}
+.zeeman img{
+  width: 300px;
+}
+/* subscribe */
+.subscribe{
+  margin: 0;
+  display: grid;
+}
+
+
+/* footer */
+
+footer{
+display: grid;
+}
+#deals{
+  /* display: grid; */
+}
+
+
+}
